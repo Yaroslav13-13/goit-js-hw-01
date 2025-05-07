@@ -1,4 +1,5 @@
-const produktName = "Droid";
-console.log=(produktName);
+const username="Yaroslav";
+console.log(username);
+
 
 

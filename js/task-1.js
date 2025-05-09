@@ -1,21 +1,9 @@
-// let username = "Yaroslav";
-// username = `David Vika ${username}`;
 
-// console.log(username);
+function makeTransaction(quantity, pricePerDroid) {
+    const totalPrice = quantity * pricePerDroid;
+   return `You ordered ${quantity} droids worth ${totalPrice} credits!` 
+}
 
-// let productName = "Slava";
-// let pricePerItem = null;
-// console.log(typeof productName);
-
-// const pricePerItem = 3500;
-// const orderedQuantity = 4;
-// const totalPrice = pricePerItem * orderedQuantity;
-// console.log(totalPrice);
-
-// let age = 26;
-// age = age + 2;
-// console.log(age);
-
-const username = "Poly";
-const message = "Welcome " + username + "!!!";
-console.log(message);
+console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
+console.log(makeTransaction(3, 1000)); // "You ordered 3 droids worth 3000 credits!"
+console.log(makeTransaction(10, 500)); // "You ordered 10 droids worth 5000 credits!"
